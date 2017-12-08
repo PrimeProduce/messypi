@@ -38,5 +38,7 @@ sudo apt-get install -y nodejs
 `sudo apt-get install vim`
 
 ## MessyPi installation
-
-`git clone https://github.com/PrimeProduce/messypi.git /home/pi/messypi`
+```
+mkdir ~/github
+git clone https://github.com/PrimeProduce/messypi.git /home/pi/github/messypi
+```
