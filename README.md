@@ -37,8 +37,15 @@ sudo apt-get install -y nodejs
 
 `sudo apt-get install vim`
 
+## Polyglot installation
+
+Follow https://ud-polyglot.readthedocs.io/en/development/usage.html#installation
+
+
 ## MessyPi installation
 ```
 mkdir ~/github
 git clone https://github.com/PrimeProduce/messypi.git /home/pi/github/messypi
 ```
+
+
