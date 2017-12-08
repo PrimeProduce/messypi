@@ -18,6 +18,7 @@ Edit `/etc/hosts` so there is a line:
 #### Enable SSH
 
 `sudo raspi-config`
+
 select: `Interfacing Options > SSH`, turn SSH on.
 
 #### Set DNS servers
