@@ -2,7 +2,7 @@
 
 ## installation notes:
 
-install messypi
+### Pi setup
 
 Set hostname
 ```
@@ -18,6 +18,10 @@ Interfacing Options > SSH
 
 Set DNS servers
 ```
-sudo echo "nameserver 8.8.8.8" > /etc/resolv.conf
-sudo echo "nameserver 8.8.4.4" >> /etc/resolv.conf
+sudo echo "interface eth0
+static domain_name_servers=8.8.8.8" >> /etc/dhcpcd.conf
 ```
+
+### MessyPi installation
+
+`git clone https://github.com/PrimeProduce/messypi.git /home/pi/messypi`
