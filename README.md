@@ -2,6 +2,9 @@
 
 ## Pi setup
 
+#### Change password
+`passwd`
+
 #### Set hostname
 ```
 sudo echo "ppnyserver" > /etc/hostname
@@ -15,7 +18,7 @@ Edit `/etc/hosts` so there is a line:
 #### Enable SSH
 
 `sudo raspi-config`
-Interfacing Options > SSH 
+select: `Interfacing Options > SSH`, turn SSH on.
 
 #### Set DNS servers
 ```
