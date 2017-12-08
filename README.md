@@ -29,6 +29,10 @@ curl -sL https://deb.nodesource.com/setup_8.x | sudo -E bash -
 sudo apt-get install -y nodejs
 ```
 
+#### Install Vim
+
+`sudo apt-get install vim`
+
 ## MessyPi installation
 
 `git clone https://github.com/PrimeProduce/messypi.git /home/pi/messypi`
