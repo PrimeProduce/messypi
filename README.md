@@ -48,4 +48,18 @@ mkdir ~/github
 git clone https://github.com/PrimeProduce/messypi.git /home/pi/github/messypi
 ```
 
+## Process management with pm2
+
+Install pm2
+`npm install pm2@latest -g`
+
+Setup pm2 startup script
+Run `pm2 startup`, then run the resulting command
+
+Run scripts with pm2 (for example, messybot)
+`pm2 start app/messybot.js`
+
+Save scripts for startup 
+`pm2 save`
+
 
