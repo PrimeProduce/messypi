@@ -24,6 +24,7 @@ Edit `/etc/hosts` so there is a line:
 `sudo raspi-config`
 
 select: `Interfacing Options > SSH`, turn SSH on.
+Optionally, install mosh: `sudo apt-get install mosh`
 
 #### Set DNS servers
 ```
