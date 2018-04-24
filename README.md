@@ -35,6 +35,9 @@ static domain_name_servers=8.8.8.8" >> /etc/dhcpcd.conf
 #### Install/update Node via nvm
 ```
 curl -o- https://raw.githubusercontent.com/creationix/nvm/v0.33.9/install.sh | bash
+```
+log out, then log in:
+```
 nvm install node
 nvm use node
 ```
