@@ -32,10 +32,11 @@ sudo echo "interface eth0
 static domain_name_servers=8.8.8.8" >> /etc/dhcpcd.conf
 ```
 
-#### Install/update Node
+#### Install/update Node via nvm
 ```
-curl -sL https://deb.nodesource.com/setup_8.x | sudo -E bash -
-sudo apt-get install -y nodejs
+curl -o- https://raw.githubusercontent.com/creationix/nvm/v0.33.9/install.sh | bash
+nvm install node
+nvm use node
 ```
 
 #### Install Vim
